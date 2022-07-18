@@ -1,0 +1,43 @@
+@import 'variables';
+
+header {
+
+    position: relative;
+
+    div {
+        display: inline-block;
+        text-align: center;
+    }
+    .header-intro{
+        width: 35%;
+        height: auto;
+        p{
+            font-family: 'Playfair Display', serif;
+            color: #736559;
+            font-size: $size-text;
+            margin-left: 144px;
+        }
+    }
+
+    .header-logo{
+        width: 30%;
+        
+        img{
+            width: 250px;
+            height: 150px;
+        }
+
+    }
+
+    .header-contact{
+        width: 33%;
+        height: auto;
+        text-align: right;
+        p{            
+            font-size: 36px;
+            margin-right: 155px;
+            color: #20276c;
+        
+        }
+    }
+}
