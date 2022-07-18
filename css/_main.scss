@@ -2,8 +2,8 @@
 
 .banner{
 
-    width: auto;
-    height: 600px;
+    min-width: 30%;
+    min-height: 600px;
 
     background-color: $banner_color;
     background-image: url(../image/banner.png);
@@ -16,7 +16,7 @@
     }
 
     input, select {
-        width: 400px;
+        width: 400px;   
         height: 50px;
         margin: 5px;
 
@@ -57,7 +57,7 @@
         .form-contact{
             float: left;
             width: 30%;
-            height: 600px;
+            min-height: 600px;
             float: right;
             text-align: center  ;
             background-color: #fbfaf1;
@@ -70,7 +70,7 @@
             }
 
             .linear-gradient{
-                background: linear-gradient(left, rgb(44, 150, 221), rgb(79, 226, 79));
+                background: linear-gradient(left, #2c3272, #aace4e);
 
             }
         }

@@ -34,8 +34,8 @@ header .header-contact p {
 }
 
 .banner {
-  width: auto;
-  height: 600px;
+  min-width: 30%;
+  min-height: 600px;
   background-color: RGB(255, 245, 235);
   background-image: url(../image/banner.png);
   background-position: center;
@@ -79,7 +79,7 @@ header .header-contact p {
 .banner .row .form-contact {
   float: left;
   width: 30%;
-  height: 600px;
+  min-height: 600px;
   float: right;
   text-align: center;
   background-color: #fbfaf1;
@@ -89,7 +89,7 @@ header .header-contact p {
   font-size: 30px;
 }
 .banner .row .form-contact .linear-gradient {
-  background: linear-gradient(left, rgb(44, 150, 221), rgb(79, 226, 79));
+  background: linear-gradient(left, #2c3272, #aace4e);
 }
 
 .post {
