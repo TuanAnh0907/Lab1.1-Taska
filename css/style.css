@@ -40,6 +40,8 @@ header .header-contact p {
 }
 .banner ul {
   list-style-type: none !important;
+  padding: 0;
+  margin: 0;
 }
 .banner input, .banner select, .banner option {
   width: 350px;
@@ -279,7 +281,7 @@ footer .footer-intro {
   padding: 10px 0px 40px 50px;
 }
 footer .footer-intro i {
-  width: 100px;
+  width: 50px;
   padding-top: 18px;
   color: #aace4e;
 }
