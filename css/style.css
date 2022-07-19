@@ -43,12 +43,13 @@ header .header-contact p {
   padding: 0;
   margin: 0;
 }
-.banner input, .banner select, .banner option {
+.banner input, .banner select {
   width: 350px;
   height: 40px;
-  margin: 5px;
+  margin: 8px;
+  font-family: "Montserrat";
 }
-.banner input option, .banner select option, .banner option option {
+.banner input option, .banner select option {
   font-size: 18px;
 }
 .banner button {
@@ -59,6 +60,7 @@ header .header-contact p {
   border-radius: 250px;
   border: 0px;
   background-color: #54a1d7;
+  font-family: "Montserrat";
 }
 .banner .row {
   padding: 0px 140px 0px 140px;
@@ -70,16 +72,36 @@ header .header-contact p {
   float: left;
   text-align: left;
   font-size: 30px;
+  color: #736559;
+}
+.banner .row .div-content .title {
+  width: 300px;
+}
+.banner .row .div-content .title h3 {
+  font-size: 20px;
+  margin: 0;
+  font-family: "Montserrat";
+}
+.banner .row .div-content .title p {
+  margin: 0;
+  padding: 0;
+  font-size: 36px;
+  letter-spacing: 0px;
+  line-height: 60px;
+  font-weight: 400;
+  font-family: "Lato";
 }
 .banner .row .div-content .content {
   font-size: 24px;
+  color: #000;
+  font-family: "Lora";
 }
 .banner .row .form-contact {
   width: 30%;
   float: right;
   text-align: center;
   background-color: #fbfaf1;
-  padding-bottom: 10px;
+  padding-bottom: 50px;
 }
 .banner .row .form-contact div p {
   font-size: 30px;
@@ -88,6 +110,7 @@ header .header-contact p {
   display: block;
   width: 100%;
   height: 20px;
+  font-family: "Lato";
   background: linear-gradient(to right, #4c8cec, #b3ec23);
 }
 
