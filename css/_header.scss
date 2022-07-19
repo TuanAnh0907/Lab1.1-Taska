@@ -3,13 +3,14 @@
 header {
 
     position: relative;
-
+    display: flex;
+    justify-content: space-between;
+    
     div {
-        display: inline-block;
         text-align: center;
     }
+
     .header-intro{
-        width: 35%;
         height: auto;
         p{
             font-family: 'Playfair Display', serif;
@@ -20,8 +21,6 @@ header {
     }
 
     .header-logo{
-        width: 30%;
-        
         img{
             width: 250px;
             height: 150px;
@@ -30,7 +29,6 @@ header {
     }
 
     .header-contact{
-        width: 33%;
         height: auto;
         text-align: right;
         p{            

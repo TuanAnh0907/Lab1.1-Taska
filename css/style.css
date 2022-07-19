@@ -1,12 +1,12 @@
 header {
   position: relative;
+  display: flex;
+  justify-content: space-between;
 }
 header div {
-  display: inline-block;
   text-align: center;
 }
 header .header-intro {
-  width: 35%;
   height: auto;
 }
 header .header-intro p {
@@ -15,15 +15,11 @@ header .header-intro p {
   font-size: 30px;
   margin-left: 144px;
 }
-header .header-logo {
-  width: 30%;
-}
 header .header-logo img {
   width: 250px;
   height: 150px;
 }
 header .header-contact {
-  width: 33%;
   height: auto;
   text-align: right;
 }
@@ -34,42 +30,41 @@ header .header-contact p {
 }
 
 .banner {
-  min-width: 30%;
-  min-height: 600px;
+  width: 100%;
   background-color: RGB(255, 245, 235);
   background-image: url(../image/banner.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  text-align: center;
 }
 .banner ul {
   list-style-type: none !important;
 }
 .banner input, .banner select {
-  width: 400px;
-  height: 50px;
-  margin: 5px;
+  width: 350px;
+  height: 40px;
+  margin: 2px;
 }
 .banner input option, .banner select option {
   font-size: 18px;
 }
 .banner button {
   width: 250px;
-  height: 60px;
+  height: 50px;
   font-size: 20px;
   color: #fff;
   border-radius: 250px;
-  text-align: center;
   background-color: #54a1d7;
 }
 .banner .row {
-  padding: 0px 150px 0px 150px;
+  padding: 0px 140px 0px 140px;
+  display: flex;
+  justify-content: space-between;
 }
 .banner .row .div-content {
   padding-top: 70px;
   float: left;
-  width: auto;
-  height: auto;
   text-align: left;
   font-size: 30px;
 }
@@ -77,24 +72,25 @@ header .header-contact p {
   font-size: 24px;
 }
 .banner .row .form-contact {
-  float: left;
-  width: 30%;
-  min-height: 600px;
   float: right;
   text-align: center;
   background-color: #fbfaf1;
-  padding: 0px 38px 0px 36px;
+  padding: 0px 38px 30px 36px;
 }
 .banner .row .form-contact div p {
   font-size: 30px;
 }
 .banner .row .form-contact .linear-gradient {
-  background: linear-gradient(left, #2c3272, #aace4e);
+  display: block;
+  width: 100%;
+  height: 20px;
+  background: linear-gradient(#2c3272, #aace4e);
 }
 
 .post {
   background-color: #fff;
   display: flex;
+  justify-content: space-between;
   width: 100%;
   padding-bottom: 50px;
 }
@@ -134,12 +130,12 @@ header .header-contact p {
 
 .service {
   display: flex;
+  justify-content: space-between;
   padding: 0px 0px 80px 180px;
 }
 .service .service-item {
   float: left;
   font-size: 27px;
-  width: 20%;
   height: auto;
   margin: 20px;
 }
@@ -204,6 +200,8 @@ header .header-contact p {
 }
 .floor-concest .floor-list {
   width: 70%;
+  display: flex;
+  justify-content: space-between;
   padding: auto;
   margin: auto;
   text-align: center;
@@ -307,13 +305,12 @@ footer .footer-copyright {
   height: 80px;
   position: absolute;
   display: inline-flex;
-  text-align: center;
   background-color: #e0e0e0;
   margin-top: 500px;
   font-size: 27px;
 }
 footer .footer-copyright i {
-  margin-left: 800px;
+  margin-left: 600px;
   padding: 30px 30px;
 }
 
