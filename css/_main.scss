@@ -14,10 +14,10 @@
         list-style-type: none !important;
     }
 
-    input, select {
+    input, select, option {
         width: 350px;   
         height: 40px;
-        margin: 2px;
+        margin: 5px;
 
             option{
                 font-size: 18px;
@@ -30,6 +30,7 @@
         font-size: 20px;
         color: #fff;
         border-radius: 250px;
+        border: 0px;
         background-color: #54a1d7;
 
     }
@@ -59,7 +60,7 @@
             float: right;
             text-align: center  ;
             background-color: #fbfaf1;
-
+            padding-bottom: 10px;
 
             div {
                 p{
@@ -71,7 +72,7 @@
                 display: block;
                 width: 100%;
                 height: 20px;
-                background: linear-gradient(to right,#2c3272, #aace4e);
+                background: linear-gradient(to right,#4c8cec, #b3ec23);
             }
         }
     }
@@ -280,5 +281,7 @@
         font-weight: 700;
         font-family: "Montserrat";
         text-align: center;
+
+        padding: 20px;
     }
 }
