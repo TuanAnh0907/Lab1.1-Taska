@@ -310,10 +310,10 @@ footer .footer-copyright {
   text-align: center;
   background-color: #e0e0e0;
   margin-top: 500px;
-  padding-left: 800px;
   font-size: 27px;
 }
 footer .footer-copyright i {
+  margin-left: 800px;
   padding: 30px 30px;
 }
 
