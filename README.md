@@ -1,7 +1,6 @@
 # Bài tập Trainee Colombo 2022
 
-## Parse XML
-
+## Cắt giao diện 1 trang blog sử dụng scss
 Cắt giao diện làm quen với scss, tailwind và bố cục web
 
 Thực hiện bởi [Phạm Tuấn Anh](https://github.com/TuanAnh0907)
