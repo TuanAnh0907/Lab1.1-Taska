@@ -28,4 +28,4 @@ Tìm kiếm link cdn cần dùng : [Tại đây](https://cdnjs.com)
 
 Tìm kiếm google font : [Tại đây](https://fonts.google.com)
 
-[Icon web](https://fontawesome.com/)
+Tìm kiếm Icon web : [Tại đây](https://fontawesome.com/)
